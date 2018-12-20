@@ -1,0 +1,81 @@
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 25%;
+    display: block;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+.slick-prev:hover,
+.slick-next:hover {
+    box-shadow: 0px 5px 31.92px 6.08px rgba(137, 137, 137, 0.71);
+}
+
+.slick-prev {
+    left: 15px;
+}
+
+.slick-next {
+    right: 15px;
+}
+
+/* Dots */
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    transform: skewY(4deg);
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: none;
+    background: rgba(50, 50, 50, .5);
+    transition: .4s;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    background: #191919;
+}
+
+.slick-dots li.slick-active button {
+    background: #191919;
+}
